@@ -1,8 +1,9 @@
-.col-3{
+.col-3 {
     background-color: #c6fdb8;
     text-align: center;
     border: 1px solid black;
 }
+
 .imageee {
     text-align: center;
 }
@@ -11,16 +12,19 @@
     text-align: start;
 }
 
-.don {
+.title {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.don,
+.mois {
     text-align: start;
 }
 
-.montant {
-    text-align: center;
-}
-
+.montant,
 .donner-mois {
-    text-align:justify;
+    text-align: center;
 }
 
 .fond {
@@ -45,6 +49,7 @@
 .titre-event {
     margin-top: 50px;
     text-align: center;
+    font-size: 400%;
 }
 
 .col-4 {
@@ -52,7 +57,10 @@
     border: 1px solid black;
 }
 
-.jour, .chiffre, .mois-annee, .adresse {
+.jour,
+.chiffre,
+.mois-annee,
+.adresse {
     text-align: center;
 }
 
@@ -61,11 +69,12 @@
     font-size: 40px;
 }
 
-.jour, .mois-annee {
+.jour,
+.mois-annee {
     font-size: 30px;
 }
 
-.adresse{
+.adresse {
     font-size: 35px;
     color: #1c8a00;
 }
