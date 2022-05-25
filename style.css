@@ -4,8 +4,12 @@
     border: 1px solid black;
 }
 
-.imageee {
+.image-head {
     text-align: center;
+}
+
+.image {
+    border: 1px solid black;
 }
 
 .recycler {
@@ -15,6 +19,10 @@
 .title {
     font-weight: bold;
     font-size: larger;
+}
+
+#montant-input {
+    margin-bottom: 5%;
 }
 
 .don,
@@ -29,13 +37,6 @@
 
 .fond {
     background-color: #F9FFA4;
-}
-
-
-@media screen and (max-width: 640px) {
-    .col-3 {
-        width: 100%;
-    }
 }
 
 .france {
@@ -83,4 +84,44 @@
     padding-left: 15%;
     padding-right: 15%;
     text-align: justify;
+}
+
+@media screen and (max-width: 640px) {
+
+    .don,
+    .montant,
+    .montant-libre,
+    .mois,
+    .donner-mois,
+    .recycler {
+        font-size: small;
+    }
+
+    #montant-input2,
+    #montant-input {
+        width: 100px;
+    }
+
+    .image {
+        width: 60%;
+        height: 50%;
+    }
+
+    .france {
+        width: 60%;
+        height: 50%;
+    }
+
+    .chiffre {
+        font-size: 29px;
+    }
+
+    .jour,
+    .mois-annee {
+        font-size: 19px;
+    }
+
+    .adresse {
+        font-size: 23px;
+    }
 }
